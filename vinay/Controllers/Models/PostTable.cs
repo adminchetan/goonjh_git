@@ -7,16 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vinay.Models
+namespace vinay.Controllers.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class PostTable
     {
         public int PostId { get; set; }
-        [DataType(DataType.MultilineText)]
         public string PostDescription { get; set; }
         public string PostImage { get; set; }
         public string PostImage1 { get; set; }

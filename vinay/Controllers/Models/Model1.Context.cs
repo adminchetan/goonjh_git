@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace vinay.Models
+namespace vinay.Controllers.Models
 {
     using System;
     using System.Data.Entity;
